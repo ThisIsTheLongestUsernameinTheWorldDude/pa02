@@ -43,7 +43,7 @@ void peruse(char *dir_name){
     closedir(dir);
 }
 int main(int argc, char** argv){
-    
+    //comment lol
     string in(argv[1]);
     //cin >> in;
     peruse((char*)in.c_str());
